@@ -57,6 +57,3 @@ void operation(){
   digitalWrite(POWER_PIN, LOW);                    // убираем питание с датчиков
   delay(5500);
 }
-
-
-}

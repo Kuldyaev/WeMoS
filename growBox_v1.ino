@@ -25,7 +25,7 @@ DynamicJsonDocument doc(1024);
 
 String TempA, HumA;                                        // Переменные для значений сенсоров
 int lightA;                                                // Переменные для значений сенсоров
-bool Load1=true, Load2=true;                               // переменные для включения нагрузки
+bool Load1=false, Load2=false;                               // переменные для включения нагрузки
 
 void setup() {
   pinMode(POWER_PIN, OUTPUT);                              // определяем пин питания датчиков
